@@ -1,0 +1,77 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../static/contact.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+/* .box::before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    height: 132%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background:url('./static/contact.jpg')no-repeat center center/cover;
+} */
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container input[type="text"]{
+    color: black;
+    margin: 12px;
+    height: 46px;
+    width: 650px;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    margin-top: 44px;
+    border: none;
+    transition: transform .2s;
+    border-bottom:4px solid purple;
+}
+.container input[type="text"]:hover{
+   
+    transform: scale(1.5);
+}
+
+.container input[type="textarea"]{
+    border-bottom:5px solid purple;
+    /* border: none; */
+    outline: none;
+    color: black;
+    margin: 12px;
+    height: 250px;
+    border-radius: 5px;
+    background: none;
+    width: 650px;
+}
+.btn{
+    background-color: red;
+    height: 41px;
+    width: 92px;
+    border-radius: 10px;
+    outline: none;
+    margin: 16px;
+    transition: transform .2s;
+}
+.btn:hover{
+    color:black;
+    transform: scale(1.5);
+    cursor: pointer;
+    outline: none;
+}

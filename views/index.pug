@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+   title Gautam's Dance Academy
+   style 
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+         li #[a(href="/") Home ]
+         li #[a(href="/") About ]
+         li #[a(href="/") Services ]
+         li #[a(href="/") Class Info ]
+         li #[a(href="/") Contact Us ]
+        
+        
+
+    section#introsection 
+        div Welcome to Gautam's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#card 
+        h1 Our  Mission
+        div.container
+
+          div#box
+            h3 Dance perfection 
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas sed adipisci ducimus?
+            img(src="../static/dance1.png", alt="Dance image" class="dance")
+
+          div#box
+            h3 Dance the way you like
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis quaerat excepturi?
+            img(src="../static/dance2.png", alt="Dance image" class="dance")
+
+
+          div#box
+            h3 Expert Teaching 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempore magnam culpa!
+            img(src="../static/dance3.png", alt="Dance image" class="dance")
+
+
+    section#sponsor
+        h1 Our  sponsors 
+        div#sponsors
+           img(src="../static/logo1.png", alt="sponsor Image",class="image")
+           img(src="../static/logo2.png", alt="sponsor Image",class="image")
+           img(src="../static/logo3.jpg", alt="sponsor Image",class="image")
+           
+
+
+    section#footer 
+        h1 Copyright@2019 Gautam's Dance Academy.com|All rights reversed
+    script 
+       include ../static/script.js

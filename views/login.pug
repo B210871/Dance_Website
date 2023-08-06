@@ -1,0 +1,25 @@
+extends base.pug
+
+block script
+      script
+          script(src="/static/script.css")
+      script
+          script(src='https://kit.fontawesome.com/80de49865a.js' crossorigin='anonymous')
+
+  
+
+block style
+      style 
+          include ../static/style.css
+      style 
+          include ../static/stylesign.css
+block content
+ form(action="/login", method="post" class="container") 
+   h1 Login to Gautam&apos;s Dance Academy
+   div.box
+     i.fa.fa-user
+     input#email(type='email' name='email' placeholder='Enter your Email')
+   div.box
+     i.fa.fa-unlock-alt
+     input#password(type='password' name='password' placeholder='Enter your password')
+   button.btn Sign in
